@@ -1,0 +1,10 @@
+
+{% assign tec_collections = collections["technology"].products %}
+
+{{tec_collections.}}
+
+{% for product in tec_collections %}
+
+{{product.title}}
+
+{% endfor %}
